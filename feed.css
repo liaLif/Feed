@@ -1,0 +1,85 @@
+body {
+  width: 1200px;
+  margin: 80px auto auto 50px;
+  font-family: sans-serif;
+}
+
+h3 {
+  float: left;
+  width: 1200px;
+  margin: 40px 60px;
+  font-size: 40px;
+}
+
+a.click {
+  color: #184e73;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+li.strong {
+  font-weight: bold;
+}
+
+li.time {
+  color: #6d757a;
+}
+
+.profile-pic {
+  float: left;
+  width: 200px;
+  clip-path: circle(35%);
+  margin-right: -30px;
+}
+
+.feed-text {
+  float: right;
+  width: 800px;
+  padding: 15px 0px;
+}
+
+.scenery-pic {
+  width: 300px;
+  height: 150px;
+  object-fit: cover;
+  margin: 10px;
+}
+
+.info li {
+  display: inline;
+}
+
+.nature-pic li {
+  display: inline;
+}
+
+.likes {
+  color: #6d757a;
+}
+
+.likes li {
+  display: inline;
+}
+
+.likes a:after {
+  content: " ";
+  padding: 0px 10px;
+}
+
+.heart-icon {
+  width: 20px;
+  padding: 2px 0px 0px;
+  float: left;
+  filter: opacity(50%);
+}
+
+.segment {
+  float: left;
+  margin: 40px 20px;
+}
+
+p {
+  margin: 5px 40px;
+}
+
+
